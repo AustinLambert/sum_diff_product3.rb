@@ -22,12 +22,11 @@ end
 
 end
 
-puts "enter two numbers"
-first_number , second_number = gets.chomp.to_i.split
+arrayNum = [9, 2]
+first_number = arrayNum[0]
+second_number = arrayNum[1]
 
 result = Numbers.new first_number, second_number
-
-puts ""
 
 puts result.sum
 
